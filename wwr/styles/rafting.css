@@ -1,9 +1,7 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
-
 :root {
-   --primary-color: #5bc0eb; 
+    --primary-color: #5bc0eb;
    --secondary-color: #33658a;
    --accent1-color: #f5f3bb;
    --accent2-color: #e88d67;
@@ -37,24 +35,21 @@ p {
     padding: 25px;
 }
 
-nav {
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
-    display: flex;
+.hero {
+    position: relative;
+} 
+
+.hero img {
+    width: 100%;
+   
 }
 
-nav a {
-    display: block;
-    color: var(--nav-link-color);
-    text-decoration: none;
-    padding: 1rem;
+.hero h1 {
+    position: absolute;
+    
 }
 
-nav a:link, nav a:visited {
-    color: var(--nav-link-color);
-}
-
-nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
+.hero article img {
+    width: 200px;
+    float: right; 
 }
