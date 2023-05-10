@@ -62,18 +62,28 @@ p {
 } 
 
 .hero img {
-    display: block;
     width: 100%;
     height: auto;
 }
 
 .hero h1 {
     position: absolute;
+    top: 1rem;
+    left: 0;
+    right: 0;
+    text-align: center;
 
 }
 
 .hero article img {
-    position: absolute;
     width: 200px;
     float: right; 
+    
+}
+
+article {
+    position: absolute;
+    top: 250px;
+    padding: 20px;
+    background-color: rgba(245, 243, 187, .70);
 }
