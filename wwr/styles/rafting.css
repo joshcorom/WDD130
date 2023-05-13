@@ -24,17 +24,25 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    text-align: center;
 }
 
 header { 
     padding: 20px;
-    background-color: var(--accent1-color)
+    margin: 1rem auto;
+    background-color: var(--accent1-color);
+    display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
 }
 
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    
 }
 
 nav a {
@@ -86,4 +94,23 @@ article {
     top: 250px;
     padding: 20px;
     background-color: rgba(245, 243, 187, .70);
+}
+
+.adventure {
+    display: grid;
+    grid-template-columns: repeat(5, 250px);
+    padding: 10px;
+    margin: auto;
+}
+
+.adventure figcaption {
+    text-align: center;
+    background-color: rgba(245, 243, 187, .90);
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.sociallinks {
+    display: flex;
+    justify-content: flex-end;
 }
