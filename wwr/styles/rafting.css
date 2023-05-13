@@ -99,7 +99,7 @@ article {
 .adventure {
     display: grid;
     grid-template-columns: repeat(5, 250px);
-    padding: 10px;
+    padding: 9px;
     margin: auto;
 }
 
