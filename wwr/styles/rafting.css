@@ -115,3 +115,13 @@ article {
     display: flex;
     justify-content: flex-end;
 }
+
+figure {
+   margin: 0;
+}
+
+footer {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    background-color: rgba(245, 243, 187, .90)
+}
