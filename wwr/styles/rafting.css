@@ -99,11 +99,12 @@ article {
 .adventure {
     display: grid;
     grid-template-columns: repeat(5, 20%);
-    width: 100%;
+    width: 94%;
+    gap: 10px
 }
 
 .adventure img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .adventure figcaption {
