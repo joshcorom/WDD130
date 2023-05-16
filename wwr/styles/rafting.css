@@ -98,16 +98,17 @@ article {
 
 .adventure {
     display: grid;
-    grid-template-columns: repeat(5, 250px);
-    padding: 10px;
-    margin: auto;
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+}
+
+.adventure img {
+    width: 100%;
 }
 
 .adventure figcaption {
     text-align: center;
     background-color: rgba(245, 243, 187, .90);
-    margin-left: 140px;
-    margin-right: 140px;
 }
 
 .sociallinks {
