@@ -126,3 +126,64 @@ footer {
     grid-template-columns:1fr 1fr;
     background-color: rgba(245, 243, 187, .90)
 }
+
+.employee {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    justify-content: center;
+    width: 94%;
+    gap: 10px
+}
+
+.employee img {
+    max-width: 100%;
+}
+
+.employee figcaption {
+    text-align: center;
+    background-color: rgba(245, 243, 187, .90);
+}
+
+.comment-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 1fr 2fr;
+    margin: 0.5rem 0;
+}
+
+label, input, button, select, textarea {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: .8rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: #5bc0eb;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: #e88d67;
+}
