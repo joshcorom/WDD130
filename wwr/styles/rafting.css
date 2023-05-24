@@ -187,3 +187,38 @@ button {
 button:hover {
     background-color: #e88d67;
 }
+
+.trip {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    justify-content: center;
+    width: 94%;
+    gap: 10px
+}
+
+.trip1 figcaption {
+    text-align:center;
+    font-size:1.5rem;
+    padding: 10px;
+    font-family: 'Raleway' , serif;
+    color: #5bc0eb;
+
+}
+
+.trip2 figcaption {
+    text-align: center;
+    font-size:1.5rem;
+    padding: 10px;
+    font-family: 'Raleway' , serif;
+    color: #5bc0eb;
+
+}
+
+.trip3 figcaption {
+    text-align: center;
+    font-size:1.5rem;
+    padding: 10px;
+    font-family: 'Raleway' , serif;
+    color: #5bc0eb;
+
+}
